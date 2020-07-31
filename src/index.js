@@ -12,7 +12,7 @@ ReactDOM.render(
       <Route path="/" component={App} exact/>
       <Route path="/cadastro/video" component={cadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCateogoria} />
-      <Route component={() => (<div>Página 404</div>)} />
+      <Route component={() => (<div>Error 404, parece que você chegou numa pagina inexistente :(</div>)} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
